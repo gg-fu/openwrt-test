@@ -1,0 +1,12 @@
+#!/bin/sh /etc/rc.common
+START=50
+
+start()
+{
+	/usr/bin/TEST
+}
+stop()
+{
+	TESTPid=$(pgrep TEST)
+	kill -9 TESTPid
+}
