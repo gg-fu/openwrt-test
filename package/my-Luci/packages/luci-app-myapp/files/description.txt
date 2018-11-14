@@ -1,0 +1,87 @@
+GEM_Light_Control_Pannel_01		一路智能开关状态		0		关
+GEM_Light_Control_Pannel_01		一路智能开关状态		1		开
+			
+GEM_Light_Control_Pannel_02		二路智能开关状态		0		关
+GEM_Light_Control_Pannel_02		二路智能开关状态		1		开
+			
+GEM_Light_Control_Pannel_03		三路智能开关状态		0		关
+GEM_Light_Control_Pannel_03		三路智能开关状态		1		开
+			
+GEM_AirCondition_Pannel			空调面板开关状态		0		关
+GEM_AirCondition_Pannel			空调面板开关状态		10		开
+GEM_AirCondition_Pannel			空调面板模式			1		自动
+GEM_AirCondition_Pannel			空调面板模式			3		制冷
+GEM_AirCondition_Pannel			空调面板模式			4		制热
+GEM_AirCondition_Pannel			空调面板模式			8		送风
+GEM_AirCondition_Pannel			空调面板模式			7		除湿
+GEM_AirCondition_Pannel			空调面板模式			9		睡眠
+GEM_AirCondition_Pannel			空调面板风量			1		低
+GEM_AirCondition_Pannel			空调面板风量			2		中
+GEM_AirCondition_Pannel			空调面板风量			3		高
+			
+GEM_Fresh_Air_Pannel				新风面板开关状态		0		关
+GEM_Fresh_Air_Pannel				新风面板开关状态		4		开
+GEM_Fresh_Air_Pannel				空调面板风量			1		低
+GEM_Fresh_Air_Pannel				空调面板风量			2		中
+GEM_Fresh_Air_Pannel				空调面板风量			3		高
+			
+GEM_Window_Cover_Motor			开合窗帘电机开关停	0		开启
+GEM_Window_Cover_Motor			开合窗帘电机开关停	1		关闭
+GEM_Window_Cover_Motor			开合窗帘电机开关停	2		停止
+GEM_Window_Cover_Motor			开合窗帘电机百分比	0		全开
+GEM_Window_Cover_Motor			开合窗帘电机百分比	1~99	level
+GEM_Window_Cover_Motor			开合窗帘电机百分比	100		全关
+			
+GEM_Contact_Switch				门磁被打开关闭		0		未检测到报警
+GEM_Contact_Switch				门磁被打开关闭		1		检测到报警
+GEM_Contact_Switch				门磁被撬动			0		防撬状态正常
+GEM_Contact_Switch				门磁被撬动			1	 	防撬状态异常（即被撬）
+GEM_Contact_Switch				门磁电池电量			0		电池电量正常
+GEM_Contact_Switch				门磁电池电量			1		电池电量低
+GEM_Contact_Switch				人体红外电池状态		0		电池工作正常
+GEM_Contact_Switch				人体红外电池状态		1		电池有故障
+				
+GEM_Occupancy_Sensor			人体红外报警			0		未检测到报警
+GEM_Occupancy_Sensor			人体红外报警			1		检测到报警
+GEM_Occupancy_Sensor			人体红外被撬动		0		防撬状态正常
+GEM_Occupancy_Sensor			人体红外被撬动		1	 	防撬状态异常（即被撬）
+GEM_Occupancy_Sensor			人体红外电池电量		0		电池电量正常
+GEM_Occupancy_Sensor			人体红外电池电量		1		电池电量低
+GEM_Occupancy_Sensor			人体红外电池状态		0		电池工作正常
+GEM_Occupancy_Sensor			人体红外电池状态		1		电池有故障
+			
+GEM_Water_Sensor				水浸报警				0		未检测到报警
+GEM_Water_Sensor				水浸报警				1		检测到报警
+GEM_Water_Sensor				水浸被撬动			0		防撬状态正常
+GEM_Water_Sensor				水浸被撬动			1	 	防撬状态异常（即被撬）
+GEM_Water_Sensor				水浸电池电量			0		电池电量正常
+GEM_Water_Sensor				水浸电池电量			1		电池电量低
+GEM_Water_Sensor				水浸电池状态			0		电池工作正常
+								水浸电池状态			1		电池有故障
+			
+GEM_Fire_Sensor					烟雾气体报警			0		未检测到报警
+GEM_Fire_Sensor					烟雾气体报警			1		检测到报警
+GEM_Fire_Sensor					烟雾被撬动			0		防撬状态正常
+GEM_Fire_Sensor					烟雾被撬动			1	 	防撬状态异常（即被撬）
+GEM_Fire_Sensor					烟雾电池电量			0		电池电量正常
+GEM_Fire_Sensor					烟雾电池电量			1		电池电量低
+GEM_Fire_Sensor					烟雾电池状态			0		电池工作正常
+GEM_Fire_Sensor					烟雾电池状态			1		电池有故障
+GEM_Fire_Sensor					烟雾气体种类			1		烟雾探测
+GEM_Fire_Sensor					烟雾气体种类			2		一氧化碳浓度探测
+GEM_Fire_Sensor					烟雾气体种类			3		二氧化碳浓度探测
+GEM_Fire_Sensor					烟雾气体种类			4		天然气浓度探测
+GEM_Fire_Sensor					烟雾气体种类			5		石油液化气探测
+GEM_Fire_Sensor					烟雾气体种类			6		未知气体探测
+			
+GEM_Double_Window_Pannel		一路开关停			100		开窗帘
+GEM_Double_Window_Pannel		一路开关停			50		暂停
+GEM_Double_Window_Pannel		一路开关停			0		关窗帘
+GEM_Double_Window_Pannel		二路开关停			100		开窗纱
+GEM_Double_Window_Pannel		二路开关停			50		暂停
+GEM_Double_Window_Pannel		二路开关停			0		关窗纱
+			
+GEM_Floor_Heating_Pannel			地暖开关				0		关
+GEM_Floor_Heating_Pannel			地暖开关				1		开
+GEM_Floor_Heating_Pannel			地暖温度				16~32	可以设定的温度值
+GEM_Floor_Heating_Pannel			室内温度				16~32	只能读取的室内温度
