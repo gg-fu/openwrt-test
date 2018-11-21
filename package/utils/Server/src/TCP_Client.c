@@ -24,7 +24,7 @@ void readHandler(const int fd, const short which, void *arg)
 		event_del(&net_event);
 		close(socket_fd);
 		sleep(1);
-		connect_server("127.0.0.1",8888);
+		connect_server("192.168.1.53",8088);
 		return;
 	}
 	printf("read msg:%s\n",buf);
@@ -67,7 +67,7 @@ int main(int argc,char *argv[])
 	//struct msg *mybuf = (struct msg *)calloc(1,sizeof(struct msg));
 
 	main_base = event_init();
-	connect_server("127.0.0.1",8888);
+	connect_server("192.168.1.53",8088);
 	/*while(1)
 	{
 		Send_user_message();

@@ -19,7 +19,7 @@ include $(INCLUDE_DIR)/cmake.mk
 define Package/Server
   SECTION:=utils
   CATEGORY:=XGD
-  DEPENDS:=+libpthread +libdaemon +libblobmsg-json +libubox +libubus +libsqlite3 +libjson-c +libevent2 
+  DEPENDS:=+libpthread +libdaemon +libblobmsg-json +libubox +libubus +libsqlite3 +libjson-c +libevent2
   TITLE:=Server
 endef
 
@@ -43,3 +43,4 @@ define Package/Server/install
 endef
 
 $(eval $(call BuildPackage,Server))
+
